@@ -1,0 +1,121 @@
+@import "../parent/reset.scss";
+#carouselDemo .btn-danger {
+    margin-top: 15px;
+    padding: 9px 26px;
+    text-transform: uppercase;
+    border-color: $colorFont;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.top-content {
+  background-color: #f0f0f0;
+  padding-bottom: 34px;
+    h3 {
+      font-size: 41px;
+      line-height: 49px;
+      text-align: center;
+      font-weight: 300;
+      padding: 20px 0;
+    }
+    & .schnella {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center; 
+    }
+}
+
+.schnella-two  {
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 16px; 
+    a {
+      color: #454142;
+        &:hover {
+            color: #0d70ad;
+            text-decoration: none;
+        }   
+    }
+  }
+  
+
+.main-content {
+    background-color: #ffffff;
+    padding: 40px 0 60px;
+
+    .main-content-text {
+       width: 100%;
+    }
+    & h2 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    & h1 {
+        font-size: 25px;
+        line-height: 27px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    & p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    & .col-lg-4, & .col-md-4, & .col-sm-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+        // width: 360px;
+    }
+    
+    & .main-content-img img {
+        width: 330px;
+        height: 190px;
+        box-sizing: border-box;
+        margin: 0 5px;  
+    }   
+}
+
+.content-one {
+    padding: 45px 0;
+    background-color: #ccebf4;
+    img {
+        width: 495px;
+        height: 302px;
+    }
+    & h3 {
+        font-size: 41px;
+        line-height: 49px;
+        font-weight: 400;
+        padding-bottom: 34px;
+        padding-top: 10px;
+    }
+    & h4 {
+        font-size: 25px;
+        line-height: 26px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    & p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    & .btn-danger {
+        margin-top: 17px;
+        padding: 6px 20px;
+        text-transform: uppercase;
+        border-color: $colorFont;
+        border-radius: 0;
+    }
+    // & .kenne div:first-child {
+    //     padding: 0;
+    //}
+    // & .kenne div:nth-child(2n) {
+    //     padding-left: 0;
+    //}
+}
+
+

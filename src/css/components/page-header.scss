@@ -1,0 +1,35 @@
+@import "../var/_colors.scss";
+@import "../var/_global.scss";
+
+.page-header {
+  // color: $colorFont;
+  .navbar {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: $navFon;
+    .navbar-brand {
+      margin-right: 70px;
+    }
+    & .nav-item {
+      padding-left: 25px;
+    }  
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+}
+#strengthen .nav-link {
+  color: $colorFont;
+  &:hover {
+    color: #000000;
+  }
+}
+
+
+
+
+
+
