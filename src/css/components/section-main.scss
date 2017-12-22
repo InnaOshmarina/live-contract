@@ -11,7 +11,7 @@
 
 .top-content {
   background-color: #f0f0f0;
-  padding-bottom: 34px;
+  padding: 20px 20px 34px 20px;
     h3 {
       font-size: 41px;
       line-height: 49px;
@@ -44,6 +44,7 @@
 .main-content {
     background-color: #ffffff;
     padding: 40px 0 60px;
+    max-width: 100%;
 
     .main-content-text {
        width: 100%;
@@ -75,9 +76,10 @@
         width: 330px;
         height: 190px;
         box-sizing: border-box;
-        margin: 0 5px;  
+        margin: 0 auto;  
     }   
 }
+
 
 .content-one {
     padding: 45px 0;
