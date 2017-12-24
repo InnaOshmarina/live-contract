@@ -1,12 +1,35 @@
 @import "../parent/reset.scss";
-#carouselDemo .btn-danger {
-    margin-top: 15px;
-    padding: 9px 26px;
-    text-transform: uppercase;
-    border-color: $colorFont;
-    border-radius: 0;
-    font-size: 16px;
-    line-height: 19px;
+
+#carouselDemo {
+    .carousel-indicators li {
+        width: 16px;
+        height: 16px;
+        border: 2px solid $colorFont;
+        border-radius: 50%;
+        margin-right: 30px;
+        opacity: 1;
+        cursor: pointer;
+        .active {           
+            background-color: $colorFont;
+        }
+    }
+    .btn-danger {
+        margin-top: 15px;
+        padding: 9px 26px;
+        text-transform: uppercase;
+        border-color: $colorFont;
+        border-radius: 0;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+.carousel:hover {
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next {
+        opacity: 1;
+    }
 }
 
 .top-content {
@@ -40,18 +63,12 @@
     }
   }
   
-
 .main-content {
     background-color: #ffffff;
     padding: 40px 0 60px;
-    max-width: 100%;
-
-    .main-content-text {
-       width: 100%;
-    }
-    & h2 {
+    h2 {
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 19px;
         padding-top: 15px;
         padding-bottom: 10px;
@@ -66,27 +83,11 @@
         font-size: 15px;
         line-height: 20px;
     }
-    & .col-lg-4, & .col-md-4, & .col-sm-12 {
-        padding-left: 10px;
-        padding-right: 10px;
-        // width: 360px;
-    }
-    
-    & .main-content-img img {
-        width: 330px;
-        height: 190px;
-        box-sizing: border-box;
-        margin: 0 auto;  
-    }   
 }
 
 .content-one {
     padding: 45px 0;
     background-color: #ccebf4;
-    img {
-        width: 495px;
-        height: 302px;
-    }
     & h3 {
         font-size: 41px;
         line-height: 49px;
@@ -117,9 +118,6 @@ p.slide-for-second {
     text-align: left;
     font-size: 47px;
     line-height: 37px;
-    // max-width: 700px;
-    // width: auto;
-    // display: table;
     font-weight: 400;
     padding: 0 5px;
     margin: 2px 0;
@@ -127,7 +125,7 @@ p.slide-for-second {
 }
 
 @media (max-width: 700px) {
-    #carouselExampleSlidesOnly {
+    #carouselDemo, #carouselExampleSlidesOnly {
         display: none;
     }
 }
