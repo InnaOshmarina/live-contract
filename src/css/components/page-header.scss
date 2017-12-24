@@ -23,10 +23,7 @@
 }
 #strengthen .nav-link {
   color: $colorFont;
-  &:hover {
-    color: #000000;
-  }
-  &.active {
+  &:hover, &.active {
   color: #333333;
   }
 }

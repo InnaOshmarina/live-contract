@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import "../var/_colors.scss";
 @import "../var/_global.scss";
 
@@ -17,9 +18,9 @@ html {
       margin-bottom: 0;
   }
                                                   //   На моём компе отображаеся совершенно по-другому
-//   & body {
-//     font-family: "Mucho Sans", "PT Sans";
-//   }
+  & body {
+    font-family: "Mucho Sans", "PT Sans";
+  }
 }
 
 a, li, p, h4 {
