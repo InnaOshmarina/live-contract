@@ -1,8 +1,7 @@
 @import "../var/_colors.scss";
 @import "../var/_global.scss";
 
-.page-header {
-  // color: $colorFont;
+.page-header {  
   .navbar {
     padding-top: 25px;
     padding-bottom: 15px;
@@ -25,6 +24,13 @@
   color: $colorFont;
   &:hover, &.active {
   color: #333333;
+  }
+}
+a.dropdown-item {
+  color: $colorLink;
+  &.active, &:hover{
+    background: none;
+    color: #000000;
   }
 }
 
